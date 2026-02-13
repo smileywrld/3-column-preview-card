@@ -5,6 +5,10 @@
 }
 
 body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     background-color: hsl(0, 0%, 95%);
     width: 100%;
     height: 100vh;
@@ -13,8 +17,37 @@ body{
 
 #flex-container{
     display: flex;
+    height: 70%;
+    width: 65%;
 }
 
 #sedans{
     background-color: hsl(31, 77%, 52%);
+}
+
+#suvs{
+    background-color: hsl(184, 100%, 22%);
+}
+
+#luxury{
+    background-color: hsl(179, 100%, 13%);
+}
+
+.text{
+    padding: 40px;
+    color: white;
+}
+
+.text h2{
+    font-family:"Big Shoulders", sans-serif;
+    text-transform: uppercase;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 2rem;
+}
+
+.text p{
+    font-weight: 300; /* makes font bold */ 
+    line-height: 25px; /* increase height between each line of text */
+    margin-bottom: 60px;
 }
