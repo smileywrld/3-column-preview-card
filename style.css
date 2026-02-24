@@ -58,4 +58,6 @@ section button{
     border: none;
     border-radius: 30px;
     background-color: hsl(0, 0%, 95%);
+    cursor: pointer;
+    margin-top: 20px 0;
 }
