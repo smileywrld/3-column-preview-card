@@ -53,5 +53,8 @@ body{
 }
 
 section button{
-    
+    width: 100%;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 30px;
 }
