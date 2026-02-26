@@ -20,21 +20,25 @@ body{
     height: 70%;
     flex-wrap: wrap;
     width: 100%;
+    background-color: black;
+    justify-content: center;
 }
 
 #sedans{
     background-color: hsl(31, 77%, 52%);
-    width: 30%;
+    width: 27%;
+    min-width: 25%;
+    max-width: 28%;
 }
 
 #suvs{
     background-color: hsl(184, 100%, 22%);
-    width: 30%;
+    width: 27%;
 }
 
 #luxury{
     background-color: hsl(179, 100%, 13%);
-    width: 30%;
+    width: 27%;
 }
 
 .text{
