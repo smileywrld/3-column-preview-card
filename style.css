@@ -18,19 +18,23 @@ body{
 #flex-container{
     display: flex;
     height: 70%;
-    width: 65%;
+    flex-wrap: wrap;
+    width: 100%;
 }
 
 #sedans{
     background-color: hsl(31, 77%, 52%);
+    width: 30%;
 }
 
 #suvs{
     background-color: hsl(184, 100%, 22%);
+    width: 30%;
 }
 
 #luxury{
     background-color: hsl(179, 100%, 13%);
+    width: 30%;
 }
 
 .text{
